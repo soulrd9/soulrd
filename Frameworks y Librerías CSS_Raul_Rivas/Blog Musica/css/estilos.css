@@ -1,0 +1,95 @@
+@media (max-width:900px) {
+  .blog-body{
+    background-color: red
+  }
+  .bartop{
+    background-color: white;
+  }
+  .imglogo{
+    width: 80%;
+  }
+  .logo{
+    text-align: center;
+    margin: 10px 0 0 0
+  }
+  .icons{
+    text-align: center;
+  }
+  .icon{
+    width: 15%;
+    padding: 70px 0 0 0;
+  }
+  .topbar li{
+    padding: 0 70px;
+  }
+  .container-fluid{
+    background-color: white
+  }
+  .jumbotron{
+    background-color: white
+  }
+  .retrato{
+  width: 100%;
+  margin: 10px
+  }
+  .default{
+    width: 40px;
+  }
+  .textarea{
+    width: 100%;
+    height: 100px;
+  }
+  .topbar li:hover{
+    background-color: white;
+  }
+
+}
+@media (min-width:901px) {
+.blog-body{
+  background-color: red
+}
+.bartop{
+  background-color: white;
+}
+.imglogo{
+  width: 80%;
+  margin: 0 0 0 20px;
+  padding: 20px
+}
+.icon{
+  width: 15%;
+  padding: 70px 0 0 0
+}
+.topbar li{
+  padding: 0 60px;
+}
+.container-fluid{
+  background-color: white
+}
+.jumbotron{
+  background-color: white
+}
+.retrato{
+width: 100%;
+margin: 10px
+}
+.default{
+  width: 50px;
+}
+.textarea{
+  width: 100%;
+  height: 100px;
+}
+.search{
+margin: 10px
+}
+.list-group{
+  width: 75%;
+  margin: 20px 0 0 32px
+}
+body{
+  padding: 0 100px
+}
+.topbar li:hover{
+  background-color: white;
+}

@@ -1,0 +1,146 @@
+@media (min-width:901px) {
+  .fondo{
+    background: url(../img/1.jpg);
+    background-position: center 140px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    .logo{
+      width: 160px;
+      margin: 40px 0 0 0;
+      border-radius: 5px
+    }
+  .topbar{
+    margin: 20px 0 0 0;
+  }
+  .topbar .btn{
+    font-size: 12px;
+  }
+  h4{
+    font-style: italic;
+    color: white;
+    margin: 40px 0 0 50px
+  }
+  .icons img{
+    width: 50px;
+    margin: 0 0 10px 10px
+  }
+  .centroizq{
+    width: 100%
+  }
+  .centro{
+    width: 100%;
+    height: 800px
+  }
+  .centroder{
+  width: 100%
+  }
+  .card-panel img{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 10px
+  }
+  .card img{
+    width: 80px;
+    height: 120px;
+    margin: 10px
+  }
+
+  .card-panel span{
+    font-size: 20px
+  }
+  .commentscard{
+    padding: 15px
+  }
+  .commentscard button{
+    margin: 20px 0 0 0
+  }
+  .commentscard i{
+    margin: 15px 0 0 40px
+  }
+}
+@media (max-width:900px) {
+  .fondo{
+    background: url(../img/1.jpg);
+    background-position: center 140px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+  .logo{
+    width: 120px;
+    border-radius: 5px;
+  }
+  .topbar .btn{
+    margin:0 0 10px 0;
+    padding: 0 0 0 5px
+  }
+  h4{
+    font-style: italic;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    margin: 50px 0 10px 0
+  }
+  .icons img{
+    width: 50px;
+    margin: 0 0 10px 10px
+  }
+  .centroizq{
+    width: 100%
+  }
+  .centro{
+    width: 100%;
+    height: 800px
+  }
+  .centroder{
+  width: 100%
+  }
+  .card-panel img{
+    width: 100%;
+    height: 100%;
+    float: center;
+    margin: 10px
+  }
+  .card img{
+    width: 80px;
+    height: 120px;
+    margin: 10px
+  }
+  .perfil .card{
+    width: 90%;
+  }
+  .card-panel span{
+    font-size: 14px
+  }
+  .commentscard{
+    padding: 15px
+  }
+  .commentscard i{
+    margin: 20px 0 0 0;
+  }
+  .commentscard input{
+    margin: 0 0 0 10px
+  }
+  .commentscard label{
+    margin: 0 0 0 10px
+  }
+  .commentscard button{
+    margin: 20px 0 0 0
+  }
+  .flex-s {
+    display: flex;
+    flex-direction: column;
+  }
+  .principal {
+    order: 1;
+}
+.perfil{
+  order: 3;
+}
+.caja{
+  order: 2
+}
+}
